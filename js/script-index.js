@@ -43,3 +43,6 @@ function renderActivity(recipe) {
 }
 
 
+$(document).ready(function(){
+		$( "#arrow" ).remove();
+	});
