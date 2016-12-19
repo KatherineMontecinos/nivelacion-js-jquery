@@ -46,3 +46,11 @@ function renderActivity(recipe) {
 $(document).ready(function(){
 		$( "#arrow" ).remove();
 	});
+
+
+function printNews() {
+	var parrafo = document.getElementById('texto');
+	var frase = document.createTextNode("Nuevas Recetas");
+	parrafo.appendChild(frase);
+}
+printNews();
